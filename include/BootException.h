@@ -3,7 +3,6 @@
 #include <exception>
 #include <iostream>
 
-
 class BootException: public std::exception  {
 public:
     const char * what() const noexcept override;
